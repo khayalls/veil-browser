@@ -1,0 +1,2 @@
+#pragma once
+#define VEIL_BUILD_ID "@VEIL_BUILD_ID@"

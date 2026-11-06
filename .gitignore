@@ -1,0 +1,70 @@
+# Local toolchains, dependencies and generated projects
+.work/
+work/
+.build/
+build/
+dist/
+DerivedData/
+*.xcodeproj/
+*.xcworkspace/
+xcuserdata/
+*.xcuserstate
+# Bundles and diagnostics
+*.app/
+*.dSYM/
+*.xcarchive/
+*.xcresult/
+*.log
+evidence/
+screenshots/
+recordings/
+*.tar
+*.tar.gz
+*.tar.bz2
+*.zip
+# Browser profiles and local state
+Engine/
+Favicons/
+Profiles/
+*.db
+*.db-*
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.sqlite3-*
+Workspace.json
+Workspace.backup.json
+Workspace.recovered.json
+Local State
+Cookies
+Cookies-*
+Login Data
+Login Data-*
+Web Data
+Web Data-*
+History
+History-*
+# Credentials and signing material
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p8
+*.p12
+*.pfx
+*.cer
+*.mobileprovision
+*.provisionprofile
+*.keychain
+*.keychain-db
+LocalSigning.xcconfig
+.netrc
+.npmrc
+.pypirc
+# OS and Python state
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+venv/
